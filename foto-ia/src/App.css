@@ -16,11 +16,16 @@
 
 button{
     font-size: 20px;
-    margin-top: 15px;
+    margin: 15px;
     padding: 20px;
     background: #394680;
     border-radius: 10px;
     cursor: pointer;
+}
+button:hover{  /*Quando o  mouse estiver posicionado em cima*/
+    background-color: #fff;
+    color: blueviolet;
+    border: 1 px solid blueviolet;
 }
 
 img{
@@ -31,4 +36,15 @@ img{
     display: flex;
     flex-direction: line;
     margin:5px;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    transform: scale(1.1);
+}
+
+label,select{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
 }
